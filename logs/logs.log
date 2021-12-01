@@ -1,0 +1,17 @@
+2021-12-02 00:24:01,060 - main - INFO - dataframe from input json files created
+2021-12-02 00:24:01,622 - main - INFO - BMI Calculated
+2021-12-02 00:24:02,026 - main - INFO - BMI Category and Health risk derived
+2021-12-02 00:24:33,331 - main - INFO - dataframe from input json files created
+2021-12-02 00:24:33,775 - main - INFO - BMI Calculated
+2021-12-02 00:24:34,154 - main - INFO - BMI Category and Health risk derived
+2021-12-02 00:24:38,848 - main - INFO - Total number of people with overweight category: 1
+2021-12-02 00:24:38,849 - main - INFO - file_path: ../../resources/output/2021/12/2
+2021-12-02 00:24:39,938 - spark_utils - INFO - Data written to the output location: ../../resources/output/2021/12/2
+2021-12-02 00:24:39,939 - main - INFO - Data processing completed
+2021-12-02 00:34:34,224 - main - INFO - dataframe from input json files created
+2021-12-02 00:34:34,756 - main - INFO - BMI Calculated
+2021-12-02 00:34:35,065 - main - INFO - BMI Category and Health risk derived
+2021-12-02 00:34:39,967 - main - INFO - Total number of people with overweight category: 1
+2021-12-02 00:34:39,968 - main - INFO - file_path: ../../resources/output/2021/12/2
+2021-12-02 00:34:40,940 - spark_utils - INFO - Data written to the output location: ../../resources/output/2021/12/2
+2021-12-02 00:34:40,940 - main - INFO - Data processing completed
