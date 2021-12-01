@@ -44,51 +44,6 @@ Severely obese | 35 - 39.9 |High risk
 Very severely obese | 40 and above |Very high risk
 
 
-### Project Structure
-
-<pre>
-bmi_calculator_challenge
-    |--logs # Logs folder where log is written
-        |--logs.log
-    |--resources # Contains resources like input or output data
-        |--input # Input Json Data
-        |--output # Output folder where data is loaded
-            |-- year
-                |--month
-                    |--day
-    |--src
-        |--app
-            |--dataframe_processor.py
-            |--main.py
-            |--__init__
-        |--config 
-            |--app_config_reader.py # Read the config from config file
-            |--__init__
-        |--utils
-            |--logging_utils.py # utils for logging 
-            |--spark_utils.py # utils for spark
-            |--__init__
-        |--__init__
-    |--tests
-        |--app
-            |--test_dataframe_preprocessor.py
-            |--test_main.py
-            |--__init__
-        |--config
-            |--__init__
-            |--test_app_config_reader.py
-        |--utils
-            |--__init__
-            |--test_preprocessing_utils.py
-            |--test_utils.py
-        |--__init__
-    |--app_config.ini # Config file having all the required configurations 
-    |--Readme.md
-
-
-</pre>
-
-
 ### Data wrangling
 
 * The input data is in the schema given below:
@@ -142,7 +97,14 @@ The sample data contains only 6 records.
 The application needs to scale up to operate on 100000 records.
 Below table contains the performance metrics captured for different input record count.
 
+**Performance Metrics Data:**
+
 ![performance_table](images/performance_metrics.png)
+
+**Performance Graph:**
+
+![performance_graph](images/metrics_graphs.png)
+
 
 ### CI/CD implementation:
 
